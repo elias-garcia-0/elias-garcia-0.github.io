@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio de Elias García</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="estilos.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
@@ -31,7 +31,7 @@
   <main>
     <section id="inicio" class="bg-light py-5 text-center">
       <div class="container">
-        <div class="row">
+        <div class="row card">
           <div class="col-md-6 offset-md-3">
             <h1 class="display-4">Elias García</h1>
             <img src="./img/yo.jpg" alt="Foto de Elias García" class="img-fluid rounded-circle mt-4" style="width: 200px;">
@@ -54,10 +54,10 @@
 
     <section id="tecnologias" class="bg-light py-5">
       <div class="container">
-        <h2 class="text-center">Tecnologías que manejo</h2>
+        <h2 class="text-center mx-5">Tecnologías que manejo</h2>
         <div class="row">
-          <div class="col-md-6">
-            <h3>Front-End</h3>
+          <div class="col-md-6 card">
+            <h3 class="text-center">Front-End</h3>
             <div class="row">
               <div class="col-md-6">
                 <div class="circle-logo">
@@ -85,8 +85,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <h3>Back-End</h3>
+          <div class="col-md-6 card">
+            <h3 class="text-center">Back-End</h3>
             <div class="row">
               <div class="col-md-6">
                 <div class="circle-logo">
@@ -124,38 +124,65 @@
         <div class="row">
           <div class="col-md-6">
             <div class="card mb-4">
-              <img src="./img/e-commerce.jpg" alt="Proyecto 1" class="card-img-top">
+              <img src="./img/e-commerce.jpg" alt="E-Commerce" class="card-img-top">
               <div class="card-body">
                 <h3 class="card-title">E-Commerce Jovenes a Programar</h3>
                 <p class="card-text">Descripción del proyecto.</p>
                 <div class="technologies">
-                  <img src="./img/html logo.png" alt="HTML5">
-                  <img src="./img/css logo.png" alt="CSS3">
-                  <img src="./img/Javascript logo.png" alt="JavaScript">
-                  <img src="./img/BootstrapLogo.png" alt="Bootstrap">
+                  <div class="circle-logo">
+                    <img src="./img/html logo.png" alt="HTML5" class="tech-logo">
+                  </div>
+                  <div class="circle-logo">
+                    <img src="./img/css logo.png" alt="CSS3" class="tech-logo">
+                  </div>
+                  <div class="circle-logo">
+                    <img src="./img/Javascript logo.png" alt="JavaScript" class="tech-logo">
+                  </div>
+                  <div class="circle-logo">
+                    <img src="./img/BootstrapLogo.png" alt="Bootstrap" class="tech-logo">
+                  </div>
                 </div>
-                <a href="https://subgrupo3.github.io/proyecto-sub3" target="_blank" class="btn btn-primary">Ver proyecto</a>
+                <a href="https://subgrupo3.github.io/proyecto-sub3" target="_blank" class="btn btn-primary mx-auto d-block">Ver proyecto</a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card mb-4">
-              <img src="./img/proyecto2.jpg" alt="Proyecto 2" class="card-img-top">
+              <img src="./img/Carpinfo.jpg" alt="Carpinfo" class="card-img-top">
               <div class="card-body">
-                <h3 class="card-title">Proyecto 2</h3>
+                <h3 class="card-title">Carpinfo</h3>
                 <p class="card-text">Descripción del proyecto.</p>
                 <div class="technologies">
-                  <img src="./img/html logo.png" alt="HTML5">
-                  <img src="./img/css logo.png" alt="CSS3">
-                  <img src="./img/Javascript logo.png" alt="JavaScript">
+                  <div class="circle-logo">
+                    <img src="./img/JavaLogo.png" alt="Java" class="tech-logo">
+                  </div>
+                  <div class="circle-logo">
+                    <img src="./img/SpringBootLogo.png" alt="SpringBoot" class="tech-logo">
+                  </div>
+                  <div class="circle-logo">
+                    <img src="./img/MySqlLogo.png" alt="MySql" class="tech-logo">
+                  </div>
+                  <div class="circle-logo">
+                    <img src="./img/css logo.png" alt="Css" class="tech-logo">
+                  </div>
+                  <div class="circle-logo">
+                    <img src="./img/BootstrapLogo.png" alt="Bootstrap" class="tech-logo">
+                  </div>
+                  <div class="circle-logo">
+                    <img src="./img/JSP logo.png" alt="JSP" class="tech-logo">
+                  </div>
+                   <div class="circle-logo">
+                    <img src="./img/LombockLogo.png" alt="Lombock" class="tech-logo">
+                  </div>
                 </div>
-                <a href="enlace-del-proyecto" target="_blank" class="btn btn-primary">Ver proyecto</a>
+                <a href="enlace-del-proyecto" target="_blank" class="btn btn-primary mx-auto d-block">Ver proyecto</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    
 
     <section id="contacto" class="bg-dark text-white py-3">
       <div class="container">

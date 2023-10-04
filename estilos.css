@@ -1,0 +1,40 @@
+.technologies {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.technologies img {
+  max-width: 30px;
+  height: auto;
+}
+
+.align-logo {
+  vertical-align: middle;
+  margin-left: 5px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+
+
+.circle-logo {
+  width: 100px; /* Tamaño del círculo */
+  height: 100px; /* Tamaño del círculo */
+  background-color: #fff; /* Color de fondo del círculo */
+  border-radius: 50%; /* Forma circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Centra el círculo horizontalmente */
+}
+div.circle-logo:hover{
+    background-color: #333;
+}
+.tech-logo {
+  max-width: 80%; /* Tamaño máximo del logo dentro del círculo */
+  height: auto;
+}
