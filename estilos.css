@@ -38,3 +38,6 @@ div.circle-logo:hover{
   max-width: 80%; /* Tamaño máximo del logo dentro del círculo */
   height: auto;
 }
+.my-card {
+  background-color: #84cbb8;
+}
